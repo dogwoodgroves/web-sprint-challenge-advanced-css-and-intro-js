@@ -209,9 +209,9 @@ Practice accessing data above by console.log-ing following items:
 
 //(1) Name of the first artist (0th index) in the array
 
-
+console.log(artists[0]["name"]);
 //(2) Bio of the third artist (2nd index) in the array 
-
+console.log(artists[2]["bio"]);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -228,8 +228,8 @@ There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is current
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(/*Your Code Here*/) {
-  /*Your Code Here*/
+function getArtistByIndex(artists, 0) {
+  return("the artist at (artists[0]) is ["name"])
 }  
 
 
@@ -278,8 +278,15 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(artists){
+    artists.push{ 
+      id: 20,
+      name: Your Name Here, 
+      years: Your Birth Year - current day,
+      genre: Web Design, 
+      nationality: Your Nationality Here
+      bio: Add 1-2 sentences (or use lorem ipsum)
+    }  
   }
 
   
